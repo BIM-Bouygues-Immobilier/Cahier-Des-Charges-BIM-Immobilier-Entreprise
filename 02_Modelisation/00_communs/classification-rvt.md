@@ -17,4 +17,20 @@ Cliquer sur "Ok" (3) pour valider. Un message apparait indiquant que les codes d
 
 ## Selectionner la classification du type
 
+Chaque type de chaque famille Revit du modèle doit être associé à un code de classification. Pour selectionnner ce code, cliquer sur "Modifier le type" (1), puis sur "..." (2) dans le champs "Code d'assemblage".
+
+Selectionner dans la liste la code correspondant au type, puis cliquer sur "OK" (3).
+
+Cliquer sur "Valider" (4) pour terminer l'édition du type.
+
 ## Exporter la classification en IFC
+
+Afin d'exporter de s'assurer que la classification selectionnée est correctement exportée en IFC, il est nécéssaire d'ajouter une configuration supplémentaire lors de l'export en IFC.
+
+Ouvrir les paramètres de configuration de l'export IFC et sélectionner l'onglet "Property Sets"
+
+![Property Sets](/02_Modelisation/00_communs/images/export-rvt/Export_05.png)
+
+La propriété "" doit pointer vers un fichier texte indiquant à Revit comment exporter le code de classification décrit ci-dessus.
+
+Ce fichier texte est disponible ici : [Uniclass2015_fra](/02_Modelisation/00_communs/images/classification/Uniclass_fr_revit.txt)
