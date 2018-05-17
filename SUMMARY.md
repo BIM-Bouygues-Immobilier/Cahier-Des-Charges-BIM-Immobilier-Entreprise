@@ -63,6 +63,7 @@
       * [Généralités](02_Modelisation/00_communs/generalites.md)
       * [Informations du projet](/02_Modelisation/00_communs/info-projet-rvt.md )
       * [Géoréférencement](02_Modelisation/00_communs/georeferencement-rvt.md )
+      * [Classification](/02_Modelisation/00_communs/classification-rvt.md )
       * [Modélisation des éléments](/02_Modelisation/04_betFluide/modelisation-rvt.md )
       * [Exporter des IFC](02_Modelisation/00_communs/export-rvt.md)
       * [Importer des IFC](/02_Modelisation/00_communs/Import-IFC-rvt.md)
@@ -150,6 +151,3 @@
   * [Déposer et gérer des documents](/03_bimsync/deposer-et-gerer-des-documents.md)
   * [Poser et répondre aux questions](/03_bimsync/poser-et-repondre-aux-questions.md)
   * [Inviter des membres et gérer un projet](/03_bimsync/inviter-des-membres-et-gerer-un-projet.md)
-
-
-

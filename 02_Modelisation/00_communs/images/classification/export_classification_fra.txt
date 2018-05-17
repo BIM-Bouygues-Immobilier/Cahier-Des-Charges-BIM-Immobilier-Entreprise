@@ -1,0 +1,2 @@
+PropertySet:	Classification	T	IfcElement
+	Classification Code	Text	Code d'assemblage
