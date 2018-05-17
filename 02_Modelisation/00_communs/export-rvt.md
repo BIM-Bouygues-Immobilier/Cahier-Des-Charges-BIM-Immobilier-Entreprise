@@ -41,7 +41,7 @@ Il est demandé d’effectuer les réglages suivants lors de l’export :
 | ![](/02_Modelisation/00_communs/images/export-rvt/Export_03.png) |
 
 | Additional contents |
-| :--- |
+| :--- |git 
 | ![](/02_Modelisation/00_communs/images/export-rvt/Export_04.png) |
 
 | Property Sets |
