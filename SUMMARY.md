@@ -15,6 +15,7 @@
       * [Modélisation de l'existant](/02_Modelisation/01_geometre/modelisation-existant-batiment.md)
       * [Exporter des IFC](/02_Modelisation/00_communs/export-rvt.md)
       * [Importe des IFC](/02_Modelisation/00_communs/Import-IFC-rvt.md)
+    * [COVADIS](/02_Modelisation/01_geometre/README.md)  
     * [Autre logiciel](/02_Modelisation/01_geometre/README.md#ifc)
       * [Généralités](/02_Modelisation/00_communs/generalites.md)
       * [Informations du projet](/02_Modelisation/00_communs/info-projet-ifc.md )
