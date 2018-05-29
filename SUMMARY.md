@@ -145,6 +145,8 @@
     * [Autre logiciel](02_Modelisation/10_VRD/README.md#ifc )
       * [Généralités](02_Modelisation/00_communs/generalites.md)
       * [Informations du projet](02_Modelisation/00_communs/info-projet-ifc.md )
+  * Economiste
+    * Attic+
 * [Plateforme collaborative](/03_bimsync/README.md)
   * [Démarrage](/03_bimsync/demarrage.md)
   * [Manipuler les modèles](/03_bimsync/manipuler-les-modeles.md)
