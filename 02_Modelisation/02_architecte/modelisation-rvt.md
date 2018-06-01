@@ -4,18 +4,15 @@ L'article suivant présente les recommandations de modélisation pour différent
 
 Ces recommendations couvrent les éléments suivants:
 * [Plans de surface](#surface)
-* [Pièces](#piece){% if book.bu == "logement" %}
-* [Logements](#logements){% endif %}
-* [Places de parking](#parking) {% if book.bu == "logement" %}
-* [Placards](#placards){% endif %}
-{% if book.bu == "logement" %} {% else %} 
+* [Pièces](#piece)
 
 De manière générale, dans les modèles Architecte les éléments de structure (dalles, poteaux, poutres, voiles ...) devront être modélisées sur un sous-projet à part de manière à pouvoir les isoler facilement. 
 Dans le cas où des intervenants spécifiques pour les lots façade et décoration soient soient présents dans l'équipe, de principe devra s'appliquer également pour les éléments de façade et de décoration. 
 
-{% endif %}
-
 ## Modélisation des plans de surfaces{#surface}
+
+Association d'une clé a type de surface dans les plans ds surfaces. 
+
 
 ### Généralités
 
@@ -60,11 +57,11 @@ Si un même niveau contient des surfaces ayant des usages différents (par exemp
 
 ### Généralités
 
-Les {% if book.bu == "logement" %}Surfaces Habitables (S.H.A.B.){% else %}Surfaces Utiles Brutes Locatives \(SUBL\), Surfaces Utiles Brutes Bureaux \(SUBB\), Surfaces Utiles Nettes \(SUN\) et Surfaces Nettes Bureaux \(SNB\){% endif %} sont calculées à partir de la modélisation des pièces du projet.
+Les Surfaces Utiles Brutes Locatives \(SUBL\), Surfaces Utiles Brutes Bureaux \(SUBB\), Surfaces Utiles Nettes \(SUN\) et Surfaces Nettes Bureaux \(SNB\) sont calculées à partir de la modélisation des pièces du projet.
 
 L’ensemble des locaux du projet doivent être présents dans la maquette numérique. En plus des locaux « nobles » du programme, cette modélisation doit inclure tous les autres types de locaux, tel que les circulations, les locaux techniques, les gaines techniques, …
 
-Les locaux doivent être représentés et décomposés en locaux fonctionnels {% if book.bu == "logement" %}\(Chambre, Séjour, Hall, …\){% else %}\(Bureau, Salle de Réunion, Hall, …\){% endif %}, même si ces locaux appartiennent à un espace physique plus important. Par exemple, {% if book.bu == "logement" %}un séjour et une cuisine{% else %}un hall et une cafétéria{% endif %} ouverts l'un sur l'autre devront être représentés comme deux locaux distincts.
+Les locaux doivent être représentés et décomposés en locaux fonctionnels(Bureau, Salle de Réunion, Hall, …\), même si ces locaux appartiennent à un espace physique plus important. Par exemple, un hall et une cafétéria ouverts l'un sur l'autre devront être représentés comme deux locaux distincts.
 
 Les locaux doivent être modélisés depuis le sol fini jusqu’au plafond fini. En l’absence de faux-plafonds, les locaux doivent être modélisés jusqu’à la hauteur libre prévue par le programme. Les locaux doivent être identifiés par leur nom, en suivant les valeurs du tableau "Nom des pièces" ci-dessous.
 
