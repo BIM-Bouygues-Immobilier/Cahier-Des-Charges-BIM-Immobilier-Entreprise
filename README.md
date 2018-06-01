@@ -10,6 +10,7 @@ Ce guide est téléchargeable au format PDF {% if book.bu == "logement" %}[*ici*
 
 Bouygues Immobilier, sur la base des démarches mises en place pour la valorisation de ses projets à travers l’utilisation du BIM, a identifié plusieurs objectifs généraux qui se traduisent dans des cas d'usages.
 
+
 Pour avoir accès aux cas d'usages BIM: [cas d'usages](/01_CasUsages/README.md)
 
 ## Comment utiliser ce guide?
