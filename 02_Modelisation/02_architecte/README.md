@@ -21,7 +21,6 @@ L'organisation des modèles suit une logique spécifique
 {% include "../../02_Modelisation/00_communs/generalites.md"  %}
 
 
-
 ### Attendus par phase et niveaux de développement
 
 
