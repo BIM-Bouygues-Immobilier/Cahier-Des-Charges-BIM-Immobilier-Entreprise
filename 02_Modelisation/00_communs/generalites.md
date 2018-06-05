@@ -1,5 +1,3 @@
-# Généralités
-
 L’ensemble des informations décrites ci-dessous devront être présentes dans les modèles déposés sur la plateforme d'échange au format IFC, indépendamment du logiciel de modélisation utilisé.
 L'ensemble des études des intervenants devra être réalisé au moyen de modèles numériques. 
 
@@ -10,7 +8,7 @@ Chaque Modèle Numérique devra constituer le reflet des études. L’ensemble d
 
 Chaque intervenant aura la responsabilité de coordonner ses Modèles Numériques avec ceux développés par les autres intervenants.
 
-##Livrables
+####Livrables
 
 Les modèles numériques du projet sont livrées sur la plateforme, suivant les jalons donnés, sous deux formats :
 
@@ -19,7 +17,7 @@ Les modèles numériques du projet sont livrées sur la plateforme, suivant les 
 
 Les deux formats doivent être produits en même temps afin de garantir leur cohérence au même état de définition du bâtiment.
 
-## Découpage
+#### Découpage
 
 Chaque intervenant produit à minima un modèle par bâtiment et il est ensuite libre de découper son modèle en plusieurs disciplines en fonction de ses contraintes de modélisations. 
 Par exemple: 
@@ -32,7 +30,7 @@ Les modèles sont nommés de la façon suivante : CODE DISCIPLINE - CODE BATIMEN
 
 {% include "../../00_Referentiel/NomDesModeles.md"  %}
 
-## Niveaux
+#### Niveaux
 
 Les modèles déposés contiennent un et un seul niveau \(IfcBuildingStorey\) par étage du projet, afin de permettre le regroupement des éléments du modèle par étage du projet.
 
@@ -48,7 +46,7 @@ Les niveaux sont nommés de la façon suivante :
 
 {% include "../../00_Referentiel/NomDesNiveaux.md"  %}
 
-## Valeurs possibles
+#### Valeurs possibles
 
 Lorsqu’une propriété doit contenir une valeur parmi plusieurs proposées, il est impératif de saisir précisément l’une des valeurs indiquées. Les valeurs autres que celle proposées seront refusées, et l’intervenant devra déposer un nouveau modèle.
 
